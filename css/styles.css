@@ -1,0 +1,68 @@
+/*
+# = id (singular)
+. = class (multi)
+*/
+
+:root {
+    --first-color: #001D3D;
+    --second-color: #003566;
+    --third-color: #FFC300;
+    --fourth-color: #FFD60A;
+    --fifth-color: #000814;
+    --base-font-size: 16px;
+}
+
+nav {
+    font-family: "Freeman", sans-serif;
+    font-size: 2rem;
+    background-color: var(--fourth-color);
+}
+
+/* Style for the sticky navbar */
+.sticky-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.title {
+    padding-top: 15rem;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.section {
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+.date {
+    width: 8rem;
+}
+
+.cert {
+    width: 25rem;
+}
+
+#whoami {
+    padding: 10rem;
+    text-align: center;
+    background-color: var(--third-color);
+}
+
+#home {
+    color: rgb(255,255,255);
+    background-color: var(--second-color);
+}
+
+#about-me-description {
+    padding: 4rem;
+    border-radius: 2rem;
+    border-color: black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.certs {
+    text-align: center;
+}
