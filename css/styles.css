@@ -12,8 +12,12 @@
     --base-font-size: 16px;
 }
 
+* {
+    font-family: Consolas;
+}
+
 nav {
-    font-family: "Freeman", sans-serif;
+    /* font-family: "Freeman", sans-serif; */
     font-size: 2rem;
     background-color: var(--fourth-color);
 }
@@ -29,7 +33,7 @@ nav {
 .title {
     padding-top: 15rem;
     text-align: center;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .section {
@@ -43,6 +47,10 @@ nav {
 
 .cert {
     width: 25rem;
+}
+
+#my-title {
+    font-size: 5rem
 }
 
 #whoami {
